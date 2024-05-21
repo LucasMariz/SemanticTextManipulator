@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "c:\\Python312\\Python.exe",
+    "python.analysis.extraPaths": ["c:\\Python312\\Lib\\site-packages"]
+  }
+  
