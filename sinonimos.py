@@ -87,7 +87,6 @@ def parse_sentenca_com_modificacao(tokens):
     sv = parse_sintagma_verbal(tokens) if tokens else []
     # Reorganiza a sentença invertendo a ordem dos sintagmas
     sentenca_reorganizada = reorganizar_sentenca(sn, sv)
-    # Aplica as modificações de sinônimos na sentença reorganizada
     return aplicar_regras_de_modificacao(sentenca_reorganizada)
 
 
